@@ -11,7 +11,7 @@ const Hero = () => {
     const [pickupLocation, setPickupLocation] = useState('')
     
     const {pickupDate, setPickupDate, returnDate, setReturnDate, router} = useAppContext()
-    const MotionImage = motion(Image)
+    const MotionImage = motion.create(Image)
 
     const handleSearch = (e) => {
         e.preventDefault()

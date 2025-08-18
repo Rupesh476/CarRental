@@ -13,7 +13,7 @@ const Page = () => {
   const {id} = useParams()
   const {router, token, currency, cars , baseURL, pickupDate, setPickupDate, returnDate, setReturnDate} = useAppContext()
   const [car, setCar] = useState(null)
-  const MotionImage = motion(Image)
+  const MotionImage = motion.create(Image)
 
 const handleSubmit = async (e) => {
   e.preventDefault()

@@ -4,7 +4,7 @@ import Image from 'next/image'
 import {motion} from 'framer-motion'
 
 const Banner = () => {
-  const MotionImage = motion(Image)
+  const MotionImage = motion.create(Image)
 
   return (
     <motion.div

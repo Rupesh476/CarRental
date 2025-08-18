@@ -17,7 +17,7 @@ const Navbar = () => {
     const pathname = usePathname()
     const [open, setOpen] = useState(false)
     const router = useRouter()
-    const MotionImage = motion(Image)
+    const MotionImage = motion.create(Image)
 
     const changeRole = async () => {
         try {
