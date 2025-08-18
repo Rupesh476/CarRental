@@ -8,7 +8,7 @@ import CarCard from '../components/CarCard'
 import {useSearchParams} from 'next/navigation'
 import {useAppContext} from '../context/AppContext'
 import {toast} from 'react-hot-toast'
-import {motion} from 'motion/react'
+import {motion} from 'framer-motion'
 
 const Page = () => {
 

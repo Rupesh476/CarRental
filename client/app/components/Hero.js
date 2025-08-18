@@ -4,7 +4,7 @@ import Image from 'next/image'
 import {assets} from '../assets/assets'
 import {cityList} from '../assets/assets'
 import {useAppContext} from '../context/AppContext'
-import {motion} from 'motion/react'
+import {motion} from 'framer-motion'
 
 const Hero = () => {
     

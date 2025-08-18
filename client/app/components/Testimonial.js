@@ -2,7 +2,7 @@ import React from 'react'
 import Title from '../components/Title'
 import { assets } from '../assets/assets'
 import Image from 'next/image'
-import {motion} from 'motion/react'
+import {motion} from 'framer-motion'
 
 const Testimonial = () => {
 

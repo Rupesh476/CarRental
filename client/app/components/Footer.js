@@ -1,7 +1,7 @@
 import React from 'react'
 import { assets } from '../assets/assets'
 import Image from 'next/image'
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 
 const Footer = () => {
   const MotionImage = motion(Image)
