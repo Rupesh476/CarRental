@@ -3,7 +3,7 @@ import "./globals.css";
 import LayoutWrapper from './components/LayoutWrapper'
 import {AppProvider} from './context/AppContext'
 import { Toaster } from 'react-hot-toast'
-import {MotionConfig} from 'motion/react'
+import {MotionConfig} from 'framer-motion'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
