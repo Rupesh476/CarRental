@@ -67,10 +67,14 @@ const Hero = () => {
         </motion.form>
 
         <MotionImage 
-        initial={{y:100, opacity:0}}
-        animate={{y:0, opacity:1}}
-        transition={{duration:0.8, delay:0.6}}
-        src={assets.main_car} alt='' className='max-h-90 ' />
+  initial={{y:100, opacity:0}}
+  animate={{y:0, opacity:1}}
+  transition={{duration:0.8, delay:0.6}}
+  src={assets.main_car}
+  alt='Luxury Car'
+  className='w-full max-w-[900px] h-auto object-contain mx-auto'
+/>
+
     </motion.div>
   )
 }

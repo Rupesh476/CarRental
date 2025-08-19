@@ -52,15 +52,18 @@ const CarCard = ({ car }) => {
               <span>{car.seating_capacity} Seats</span>
             </div>
             <div className="flex items-center text-sm text-muted-foreground">
-              <Image src={assets.fuel_icon} alt="" className="h-4 mr-2" />
+              <Image src={assets.users_icon} alt="" width={16} height={16} className="mr-2" />
+
               <span>{car.fuel_type}</span>
             </div>
             <div className="flex items-center text-sm text-muted-foreground">
-              <Image src={assets.car_icon} alt="" className="h-4 mr-2" />
+              <Image src={assets.users_icon} alt="" width={16} height={16} className="mr-2" />
+
               <span>{car.transmission}</span>
             </div>
             <div className="flex items-center text-sm text-muted-foreground">
-              <Image src={assets.location_icon} alt="" className="h-4 mr-2" />
+             <Image src={assets.users_icon} alt="" width={16} height={16} className="mr-2" />
+
               <span>{car.location}</span>
             </div>
           </div>
