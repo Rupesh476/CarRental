@@ -1,11 +1,10 @@
 "use client"
-
 import React, { useState, useEffect } from "react"
 import { useRouter, useParams } from "next/navigation"
-import { assets } from "../../../assets/assets"
+import { assets } from "../../assets/assets"
 import Image from "next/image"
-import Loader from "../../../components/Loader"
-import { useAppContext } from "../../../context/AppContext"
+import Loader from "../../components/Loader"
+import { useAppContext } from "../../context/AppContext"
 import { toast } from "react-hot-toast"
 import { motion } from "framer-motion"
 
@@ -171,6 +170,7 @@ export default function CarDetailPage() {
               onChange={(e) => setPickupDate(e.target.value)}
               value={pickupDate}
               required
+
               id="pickup-date"
               min={new Date().toISOString().split("T")[0]}
               className="border border-borderColor px-3 py-2 rounded-lg"
